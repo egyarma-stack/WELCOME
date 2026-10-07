@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>PHARAOHS Construction & Design | Yerevan, Armenia</title>
+<meta name="description" content="PHARAOHS Construction & Design provides woodworking, carpentry installation, custom woodwork and design-focused solutions in Yerevan, Armenia.">
+<meta property="og:title" content="PHARAOHS Construction & Design | Yerevan, Armenia">
+<meta property="og:description" content="Woodwork, carpentry, installation and design solutions crafted for modern spaces.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"HomeAndConstructionBusiness","name":"PHARAOHS Construction & Design","telephone":"+374 33 691180","email":"mekaelmoner7@gmail.com","address":{"@type":"PostalAddress","streetAddress":"22 Abovyan Street","addressLocality":"Yerevan","addressCountry":"AM"},"description":"Woodworking, carpentry installation, custom woodwork and design-focused solutions."}</script>
+<style>
+:root{--pharaoh-black:#0B0B0B;--obsidian:#151515;--antique-gold:#C9A24D;--royal-gold:#E0B85A;--champagne:#F2E6C9;--stone:#D8D0C2;--ivory:#F7F4EE;--charcoal:#292929;--serif:'Cormorant Garamond',Georgia,serif;--sans:'Montserrat',system-ui,sans-serif;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 70px);height:auto}
+*,*::before,*::after{box-sizing:inherit;margin:0}
+body{background:var(--pharaoh-black);color:var(--stone);font:300 15px/1.8 var(--sans);overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:2px solid var(--royal-gold);outline-offset:3px}
+.wrap{max-width:1240px;margin:0 auto;padding:0 28px}
+section{padding:120px 0;position:relative}
+h1,h2,h3{font-family:var(--serif);font-weight:500;color:var(--ivory);line-height:1.1}
+h2{font-size:clamp(34px,5vw,60px);letter-spacing:.02em}
+h3{font-size:24px}
+.label{font:500 11px/1 var(--sans);letter-spacing:.32em;text-transform:uppercase;color:var(--antique-gold);display:block;margin-bottom:22px}
+.line{display:block;width:64px;height:1px;background:var(--antique-gold);margin:28px 0}
+.btn{display:inline-block;font:500 12px/1 var(--sans);letter-spacing:.22em;text-transform:uppercase;padding:18px 30px;border:1px solid var(--antique-gold);border-radius:2px;cursor:pointer;transition:.4s ease}
+.btn.p{background:var(--antique-gold);color:var(--pharaoh-black)}
+.btn.p:hover{background:var(--royal-gold);transform:translateY(-2px)}
+.btn.s{color:var(--champagne);background:transparent}
+.btn.s:hover{background:rgba(201,162,77,.12);transform:translateY(-2px)}
+/* nav */
+nav{position:fixed;top:0;left:0;right:0;z-index:50;padding:calc(env(safe-area-inset-top,0px) + 22px) 0 22px;transition:.5s}
+nav.on{background:rgba(11,11,11,.96);padding-top:calc(env(safe-area-inset-top,0px) + 14px);padding-bottom:14px;border-bottom:1px solid rgba(201,162,77,.2)}
+nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{display:flex;align-items:center;gap:12px}
+.logo svg{width:30px;height:34px}
+.logo b{display:block;font:600 22px/1 var(--serif);letter-spacing:.24em;color:var(--royal-gold)}
+.logo small{display:block;font:400 7.5px/1 var(--sans);letter-spacing:.34em;color:var(--stone);margin-top:6px}
+.links{display:flex;align-items:center;gap:34px}
+.links a:not(.btn){font:500 11px/1 var(--sans);letter-spacing:.24em;color:var(--ivory);transition:.3s;padding:8px 0}
+.links a:not(.btn):hover{color:var(--royal-gold)}
+.links .btn{padding:14px 22px;font-size:11px}
+.burger{display:none;background:none;border:1px solid rgba(201,162,77,.5);width:46px;height:46px;cursor:pointer;border-radius:2px}
+.burger span{display:block;width:20px;height:1px;background:var(--royal-gold);margin:6px auto}
+/* hero */
+.hero{min-height:100vh;display:flex;align-items:center;padding:140px 0 90px;overflow:hidden;background:var(--pharaoh-black)}
+.slats{position:absolute;inset:0;background:
+ linear-gradient(90deg,rgba(11,11,11,.92) 0%,rgba(11,11,11,.55) 55%,rgba(11,11,11,.8) 100%),
+ repeating-linear-gradient(90deg,#2a1d12 0 38px,#120c07 38px 44px,#33241a 44px 82px,#0e0905 82px 88px);
+ animation:zoom 24s ease-in-out infinite alternate}
+@keyframes zoom{to{transform:scale(1.08)}}
+.hero .vl{position:absolute;top:0;bottom:0;width:1px;background:linear-gradient(transparent,rgba(201,162,77,.5),transparent)}
+.hero .wrap{position:relative;z-index:2}
+.brandmark{font:600 clamp(18px,3vw,26px)/1 var(--serif);letter-spacing:.5em;color:var(--royal-gold);animation:fade 2s both}
+.brandmark small{display:block;font:400 10px/1 var(--sans);letter-spacing:.5em;color:var(--stone);margin-top:12px}
+.hero h1{font-size:clamp(42px,8vw,108px);letter-spacing:.01em;margin:44px 0 28px;font-weight:500}
+.hero h1 span{display:block;overflow:hidden}
+.hero h1 em{display:block;font-style:normal;animation:up 1.6s cubic-bezier(.2,.7,.2,1) both}
+.hero h1 span:nth-child(2) em{animation-delay:.35s;color:var(--champagne)}
+.hero p{max-width:480px;font-size:16px;animation:fade 2s .9s both}
+.hero .btns{display:flex;gap:16px;flex-wrap:wrap;margin-top:42px;animation:fade 2s 1.2s both}
+.hero .gl{height:1px;width:0;background:var(--antique-gold);margin-top:38px;animation:grow 2.4s .6s forwards}
+@keyframes up{from{transform:translateY(105%)}}
+@keyframes fade{from{opacity:0}}
+@keyframes grow{to{width:140px}}
+/* reveal */
+.rv{opacity:0;transform:translateY(28px);transition:opacity 1.2s ease,transform 1.2s ease}
+.rv.in{opacity:1;transform:none}
+/* intro */
+.intro .grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start}
+.intro p{margin-bottom:18px;color:var(--stone)}
+.feat{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:rgba(201,162,77,.2);border:1px solid rgba(201,162,77,.2);margin-top:60px}
+.feat div{background:var(--obsidian);padding:34px 28px}
+.feat i{font:500 italic 30px var(--serif);color:var(--antique-gold)}
+.feat h3{font:500 12px/1 var(--sans);letter-spacing:.28em;color:var(--ivory);margin:14px 0 10px}
+.feat p{font-size:13px;margin:0}
+/* services */
+.services{background:var(--obsidian)}
+.head{max-width:620px;margin-bottom:64px}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.card{background:var(--obsidian);border:1px solid rgba(201,162,77,.22);padding:38px 28px;position:relative;transition:.5s;overflow:hidden}
+.services .card{background:var(--pharaoh-black)}
+.card::after{content:"";position:absolute;left:0;top:0;height:2px;width:0;background:var(--royal-gold);transition:.6s}
+.card:hover{border-color:var(--royal-gold);transform:translateY(-8px)}
+.card:hover::after{width:100%}
+.card svg{width:44px;height:44px;stroke:var(--antique-gold);fill:none;stroke-width:1;margin-bottom:34px}
+.card .n{font:500 12px var(--sans);letter-spacing:.3em;color:var(--antique-gold)}
+.card h3{font-size:25px;margin:12px 0 14px}
+.card p{font-size:13.5px}
+/* philosophy */
+.phil{padding:0}
+.phil .grid{display:grid;grid-template-columns:1.1fr 1fr;min-height:640px}
+.art{position:relative;background:linear-gradient(180deg,transparent 40%,rgba(11,11,11,.7)),repeating-linear-gradient(90deg,#3b2a1c 0 20px,#17100a 20px 23px,#2b1e14 23px 60px,#0e0905 60px 63px);overflow:hidden}
+.art::before{content:"";position:absolute;inset:40px;border:1px solid rgba(201,162,77,.5)}
+.art::after{content:"";position:absolute;left:50%;top:0;bottom:0;width:1px;background:rgba(201,162,77,.35)}
+.phil .txt{display:flex;flex-direction:column;justify-content:center;padding:90px clamp(28px,6vw,90px);background:var(--charcoal)}
+.phil p{margin-bottom:16px;max-width:460px}
+/* standard */
+.std{display:grid;grid-template-columns:repeat(5,1fr);gap:0;border-top:1px solid rgba(201,162,77,.35)}
+.std div{padding:34px 24px 10px 0;border-right:1px solid rgba(201,162,77,.15);padding-left:24px}
+.std div:first-child{padding-left:0}
+.std div:last-child{border:0}
+.std b{font:500 40px var(--serif);color:var(--antique-gold);display:block}
+.std h3{font:500 12px/1 var(--sans);letter-spacing:.28em;color:var(--ivory);margin:10px 0 12px}
+.std p{font-size:13px}
+/* about */
+.about{background:var(--ivory);color:var(--charcoal)}
+.about h2{color:var(--pharaoh-black)}
+.about .label{color:#8a6c25}
+.about .grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}
+.about p{margin-bottom:16px}
+.motto{font:italic 500 28px/1.3 var(--serif);color:var(--pharaoh-black);border-left:1px solid var(--antique-gold);padding-left:22px;margin-top:30px}
+.about .art{min-height:460px}
+/* projects */
+.pgrid{display:grid;grid-template-columns:repeat(12,1fr);gap:24px}
+.proj{grid-column:span 6}
+.proj:nth-child(1){grid-column:span 7}.proj:nth-child(2){grid-column:span 5;margin-top:70px}
+.proj:nth-child(3){grid-column:span 5}.proj:nth-child(4){grid-column:span 7;margin-top:70px}
+.proj{background:var(--obsidian);border:1px solid rgba(201,162,77,.22);transition:.5s}
+.proj:hover{border-color:var(--royal-gold);transform:translateY(-8px)}
+.ph{aspect-ratio:4/3;overflow:hidden;position:relative;background-size:cover;background-position:center}
+.ph i{position:absolute;inset:0;transition:transform 1.4s ease;background:repeating-linear-gradient(90deg,#33241a 0 26px,#120c07 26px 29px,#291c12 29px 70px,#0b0704 70px 73px)}
+.proj:nth-child(even) .ph i{background:repeating-linear-gradient(0deg,#33241a 0 26px,#120c07 26px 29px,#291c12 29px 70px,#0b0704 70px 73px)}
+.proj:hover .ph i{transform:scale(1.06)}
+.ph span{position:absolute;left:16px;bottom:14px;font:400 10px var(--sans);letter-spacing:.2em;color:var(--champagne);opacity:.6}
+.pinfo{padding:26px 28px 30px}
+.pinfo small{font:500 10.5px var(--sans);letter-spacing:.28em;color:var(--antique-gold);text-transform:uppercase}
+.pinfo h3{margin:10px 0 6px}
+.pinfo p{font-size:12.5px;opacity:.75;margin-bottom:18px}
+.pinfo a{font:500 11px var(--sans);letter-spacing:.22em;color:var(--royal-gold);border-bottom:1px solid var(--antique-gold);padding-bottom:4px}
+/* approach */
+.approach{background:var(--obsidian)}
+.tl{display:grid;grid-template-columns:repeat(5,1fr);position:relative;margin-top:30px}
+.tl::before{content:"";position:absolute;top:7px;left:0;right:0;height:1px;background:rgba(201,162,77,.45)}
+.tl div{position:relative;padding:44px 24px 0 0}
+.tl div::before{content:"";position:absolute;top:0;left:0;width:15px;height:15px;background:var(--obsidian);border:1px solid var(--royal-gold);transform:rotate(45deg)}
+.tl b{font:500 12px var(--sans);letter-spacing:.3em;color:var(--antique-gold)}
+.tl h3{font:500 13px/1.4 var(--sans);letter-spacing:.22em;color:var(--ivory);margin:10px 0}
+.tl p{font-size:13px}
+/* location */
+.loc .grid{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}
+.loc address{font-style:normal;font-size:18px;color:var(--ivory);margin:22px 0}
+.map{aspect-ratio:16/10;border:1px solid rgba(201,162,77,.3);position:relative;background:
+ linear-gradient(rgba(201,162,77,.1) 1px,transparent 1px) 0 0/48px 48px,
+ linear-gradient(90deg,rgba(201,162,77,.1) 1px,transparent 1px) 0 0/48px 48px,var(--obsidian)}
+.map::after{content:"";position:absolute;left:50%;top:50%;width:16px;height:16px;margin:-8px;background:var(--royal-gold);transform:rotate(45deg);box-shadow:0 0 0 12px rgba(224,184,90,.15)}
+/* contact */
+.contact{background:radial-gradient(ellipse at 80% 0,#1f1a10,var(--pharaoh-black) 60%);border-top:1px solid rgba(201,162,77,.3)}
+.contact .grid{display:grid;grid-template-columns:1fr 1.1fr;gap:80px}
+.contact h2{font-size:clamp(38px,5.5vw,72px)}
+.cinfo{margin-top:40px;display:grid;gap:10px;font-size:15px}
+.cinfo a:hover{color:var(--royal-gold)}
+form{display:grid;gap:22px}
+label{font:500 10.5px var(--sans);letter-spacing:.28em;text-transform:uppercase;color:var(--antique-gold);display:block}
+input,select,textarea{width:100%;margin-top:10px;background:transparent;border:0;border-bottom:1px solid rgba(201,162,77,.45);color:var(--ivory);font:300 16px var(--sans);padding:10px 0;border-radius:0}
+select option{background:var(--obsidian)}
+textarea{min-height:110px;resize:vertical}
+input:focus,select:focus,textarea:focus{outline:none;border-color:var(--royal-gold)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+#msg{font-size:13px;color:var(--champagne);min-height:20px}
+footer{padding:70px 0 40px;background:var(--obsidian);border-top:1px solid rgba(201,162,77,.2)}
+footer .grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:50px}
+footer .logo b{font-size:28px}
+footer p{font-size:13px;margin-top:14px}
+footer ul{list-style:none;padding:0;display:grid;gap:10px;font-size:12px;letter-spacing:.2em}
+footer li a:hover{color:var(--royal-gold)}
+.copy{margin-top:50px;padding-top:24px;border-top:1px solid rgba(201,162,77,.15);font-size:11.5px;opacity:.7}
+/* responsive */
+@media(max-width:1020px){.cards{grid-template-columns:1fr 1fr}.std{grid-template-columns:1fr 1fr}.std div{border:0;padding-left:0;border-top:1px solid rgba(201,162,77,.15)}.phil .grid,.intro .grid,.about .grid,.loc .grid,.contact .grid{grid-template-columns:1fr;gap:50px}.phil .art{min-height:340px}}
+@media(max-width:860px){
+ .burger{display:block}
+ .links{position:fixed;inset:0;background:var(--pharaoh-black);flex-direction:column;justify-content:center;gap:28px;transform:translateX(100%);transition:.5s;z-index:-1}
+ .links.open{transform:none}.links a:not(.btn){font-size:15px;padding:10px}
+ nav{z-index:60}
+ .logo small{display:none}
+ .tl{grid-template-columns:1fr;padding-left:8px}.tl::before{top:0;bottom:0;left:15px;right:auto;width:1px;height:auto}
+ .tl div{padding:0 0 38px 46px}.tl div::before{left:8px}
+}
+@media(max-width:640px){
+ section{padding:80px 0}.wrap{padding:0 22px}
+ .cards,.feat,.std,.two{grid-template-columns:1fr}
+ .pgrid{display:block}.proj{margin:0 0 22px!important}
+ .hero .btns .btn{width:100%;text-align:center}
+ .btn{padding:20px 26px}
+ footer .grid{grid-template-columns:1fr}
+ .phil .txt{padding:70px 22px}
+}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<nav id="nav"><div class="wrap">
+ <a href="#home" class="logo" aria-label="PHARAOHS Construction & Design">
+  <svg viewBox="0 0 30 34" fill="none" stroke="#C9A24D" stroke-width="1.2" aria-hidden="true"><path d="M15 2 4 8v8c0 8 4 14 11 16 7-2 11-8 11-16V8z"/><path d="M15 2v30M4 12h22M9 20h12"/></svg>
+  <span><b>PHARAOHS</b><small>CONSTRUCTION &amp; DESIGN</small></span>
+ </a>
+ <button class="burger" id="bg" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+ <div class="links" id="lk">
+  <a href="#home">HOME</a><a href="#about">ABOUT</a><a href="#services">SERVICES</a><a href="#projects">PROJECTS</a><a href="#contact">CONTACT</a>
+  <a href="#contact" class="btn p">START A PROJECT</a>
+ </div>
+</div></nav>
+
+<main>
+<header class="hero" id="home">
+ <div class="slats" aria-hidden="true"></div>
+ <div class="vl" style="left:8%" aria-hidden="true"></div><div class="vl" style="right:8%" aria-hidden="true"></div>
+ <div class="wrap">
+  <div class="brandmark">PHARAOHS<small>CONSTRUCTION &amp; DESIGN</small></div>
+  <h1><span><em>BUILDING WITH PRECISION.</em></span><span><em>DESIGNING WITH PURPOSE.</em></span></h1>
+  <p>Woodwork, carpentry, installation and design solutions crafted for modern spaces.</p>
+  <div class="gl"></div>
+  <div class="btns"><a class="btn p" href="#services">EXPLORE OUR SERVICES</a><a class="btn s" href="#contact">START A PROJECT</a></div>
+ </div>
+</header>
+
+<section class="intro"><div class="wrap">
+ <div class="grid">
+  <div class="rv"><span class="label">Introduction</span><h2>CRAFTED WITH PRECISION</h2><span class="line"></span></div>
+  <div class="rv"><p><strong style="color:var(--ivory);font-weight:500">Every detail matters.</strong></p>
+  <p>At PHARAOHS, we believe exceptional spaces are created through careful planning, quality workmanship, and attention to the smallest details.</p>
+  <p>Our work combines traditional craftsmanship with modern design principles to deliver results that are functional, refined, and built for everyday life.</p></div>
+ </div>
+ <div class="feat rv">
+  <div><i>01</i><h3>PRECISION</h3><p>Careful measurements, planning, and execution.</p></div>
+  <div><i>02</i><h3>CRAFTSMANSHIP</h3><p>Attention to materials, details, and finishing.</p></div>
+  <div><i>03</i><h3>DESIGN</h3><p>Clean, thoughtful solutions designed around each project.</p></div>
+  <div><i>04</i><h3>QUALITY</h3><p>A commitment to durable workmanship and professional results.</p></div>
+ </div>
+</div></section>
+
+<section class="services" id="services"><div class="wrap">
+ <div class="head rv"><span class="label">Our Services</span><h2>CRAFTSMANSHIP FOR MODERN SPACES</h2></div>
+ <div class="cards">
+  <article class="card rv"><svg viewBox="0 0 44 44"><path d="M6 38V6h32v32zM6 14h32M14 6v32M22 22h16"/></svg><span class="n">01</span><h3>WOODWORK &amp; CARPENTRY</h3><p>Professional installation and finishing of wooden elements for residential and commercial spaces.</p></article>
+  <article class="card rv"><svg viewBox="0 0 44 44"><path d="M6 38 22 6l16 32zM22 6v32M14 22h16"/></svg><span class="n">02</span><h3>CUSTOM WOODWORK</h3><p>Tailored wooden solutions designed around the dimensions, style, and purpose of your space.</p></article>
+  <article class="card rv"><svg viewBox="0 0 44 44"><path d="M6 6h14v14H6zM24 24h14v14H24zM20 13h18v11M24 31H6V20"/></svg><span class="n">03</span><h3>INTERIOR DESIGN &amp; FINISHING</h3><p>Thoughtful design solutions that bring together materials, functionality, and visual character.</p></article>
+  <article class="card rv"><svg viewBox="0 0 44 44"><path d="M22 4v36M4 22h36M10 10l24 24M34 10 10 34"/></svg><span class="n">04</span><h3>INSTALLATION &amp; DETAILING</h3><p>Professional installation with an emphasis on accuracy, alignment, finishing, and durability.</p></article>
+ </div>
+</div></section>
+
+<section class="phil"><div class="grid">
+ <div class="art" role="img" aria-label="Architectural timber slat wall placeholder"></div>
+ <div class="txt rv"><span class="label">Philosophy</span><h2>BUILT TO LAST.<br>DESIGNED TO BELONG.</h2><span class="line"></span>
+  <p>A successful project is more than something that looks good.</p>
+  <p>It should work beautifully, feel right within its environment, and remain valuable over time.</p>
+  <p>That's why we combine practical craftsmanship with a strong sense of design — creating work that is both functional and distinctive.</p></div>
+</div></section>
+
+<section><div class="wrap">
+ <div class="head rv"><span class="label">Principles</span><h2>THE PHARAOHS STANDARD</h2></div>
+ <div class="std rv">
+  <div><b>01</b><h3>PRECISION</h3><p>We approach every project with careful planning and attention to detail.</p></div>
+  <div><b>02</b><h3>MATERIALS</h3><p>We value quality materials and thoughtful material selection.</p></div>
+  <div><b>03</b><h3>CRAFT</h3><p>Our focus is on clean workmanship and refined finishing.</p></div>
+  <div><b>04</b><h3>CHARACTER</h3><p>Every project should have its own identity.</p></div>
+  <div><b>05</b><h3>COMMITMENT</h3><p>We take responsibility for the quality of our work from beginning to completion.</p></div>
+ </div>
+</div></section>
+
+<section class="about" id="about"><div class="wrap"><div class="grid">
+ <div class="rv"><span class="label">About</span><h2>A NEW STANDARD OF CRAFTSMANSHIP</h2><span class="line"></span>
+  <p>PHARAOHS CONSTRUCTION &amp; DESIGN was established in 2026 with a vision to combine craftsmanship, modern design, and precise execution.</p>
+  <p>Based in Yerevan, Armenia, we focus on creating and installing high-quality wood and carpentry solutions while developing a broader design-focused approach to interior and architectural projects.</p>
+  <div class="motto">Create with purpose.<br>Build with precision.<br>Finish with pride.</div></div>
+ <div class="art rv" role="img" aria-label="Timber detail placeholder"></div>
+</div></div></section>
+
+<section id="projects"><div class="wrap">
+ <div class="head rv"><span class="label">Selected Projects</span><h2>OUR WORK, COMING SOON</h2></div>
+ <div class="pgrid">
+  <!-- To add a real project: set style="background-image:url(...)" on .ph, remove <i> and <span>, and edit text. -->
+  <article class="proj rv"><div class="ph"><i></i><span>IMAGE PLACEHOLDER</span></div><div class="pinfo"><small>Residential Interior</small><h3>PROJECT 01</h3><p>Location — Year</p><a href="#contact">VIEW PROJECT</a></div></article>
+  <article class="proj rv"><div class="ph"><i></i><span>IMAGE PLACEHOLDER</span></div><div class="pinfo"><small>Custom Woodwork</small><h3>PROJECT 02</h3><p>Location — Year</p><a href="#contact">VIEW PROJECT</a></div></article>
+  <article class="proj rv"><div class="ph"><i></i><span>IMAGE PLACEHOLDER</span></div><div class="pinfo"><small>Architectural Carpentry</small><h3>PROJECT 03</h3><p>Location — Year</p><a href="#contact">VIEW PROJECT</a></div></article>
+  <article class="proj rv"><div class="ph"><i></i><span>IMAGE PLACEHOLDER</span></div><div class="pinfo"><small>Interior Installation</small><h3>PROJECT 04</h3><p>Location — Year</p><a href="#contact">VIEW PROJECT</a></div></article>
+ </div>
+</div></section>
+
+<section class="approach"><div class="wrap">
+ <div class="head rv"><span class="label">Our Approach</span><h2>FROM FIRST CONVERSATION TO FINAL DETAIL</h2></div>
+ <div class="tl rv">
+  <div><b>01</b><h3>CONSULTATION</h3><p>Understanding the space, requirements, style, and objectives.</p></div>
+  <div><b>02</b><h3>CONCEPT</h3><p>Developing the appropriate design and material direction.</p></div>
+  <div><b>03</b><h3>PREPARATION</h3><p>Precise measurements, planning, and preparation.</p></div>
+  <div><b>04</b><h3>CRAFT &amp; INSTALLATION</h3><p>Professional production, woodworking, and installation.</p></div>
+  <div><b>05</b><h3>FINAL DETAIL</h3><p>Inspection, finishing, and attention to every detail.</p></div>
+ </div>
+</div></section>
+
+<section class="loc"><div class="wrap"><div class="grid">
+ <div class="rv"><span class="label">Location</span><h2>YEREVAN, ARMENIA</h2><address>22 Abovyan Street<br>Yerevan, Armenia</address><p>Available for project inquiries, consultations, and collaborations.</p></div>
+ <div class="map rv" role="img" aria-label="Minimal map marker for 22 Abovyan Street, Yerevan"></div>
+</div></div></section>
+
+<section class="contact" id="contact"><div class="wrap"><div class="grid">
+ <div class="rv"><span class="label">Contact</span><h2>LET'S BUILD SOMETHING DISTINCTIVE.</h2><span class="line"></span><p>Have a project in mind? Tell us about it.</p>
+  <div class="cinfo"><a href="tel:+37433691180">+374 33 691180</a><a href="mailto:mekaelmoner7@gmail.com">mekaelmoner7@gmail.com</a><span>22 Abovyan Street, Yerevan, Armenia</span></div></div>
+ <form id="f" class="rv">
+  <label>Name<input name="n" required autocomplete="name"></label>
+  <div class="two"><label>Phone<input name="p" type="tel" autocomplete="tel"></label><label>Email<input name="e" type="email" required autocomplete="email"></label></div>
+  <label>Project Type<select name="t"><option>Woodwork &amp; Carpentry</option><option>Custom Woodwork</option><option>Interior Design &amp; Finishing</option><option>Installation &amp; Detailing</option><option>Other</option></select></label>
+  <label>Message<textarea name="m" required></textarea></label>
+  <div><button class="btn p" type="submit">SEND INQUIRY</button></div>
+  <div id="msg" role="status"></div>
+ </form>
+</div></div></section>
+</main>
+
+<footer><div class="wrap">
+ <div class="grid">
+  <div><div class="logo"><span><b>PHARAOHS</b><small style="display:block">CONSTRUCTION &amp; DESIGN</small></span></div><p>Precision. Craftsmanship. Design.</p><p>Yerevan, Armenia<br>+374 33 691180<br><a href="mailto:mekaelmoner7@gmail.com">mekaelmoner7@gmail.com</a></p></div>
+  <div></div>
+  <ul><li><a href="#home">HOME</a></li><li><a href="#about">ABOUT</a></li><li><a href="#services">SERVICES</a></li><li><a href="#projects">PROJECTS</a></li><li><a href="#contact">CONTACT</a></li></ul>
+ </div>
+ <div class="copy">© 2026 PHARAOHS CONSTRUCTION &amp; DESIGN. All rights reserved.</div>
+</div></footer>
+
+<script>
+const nav=document.getElementById('nav'),lk=document.getElementById('lk'),bg=document.getElementById('bg');
+const sc=()=>nav.classList.toggle('on',scrollY>40);sc();addEventListener('scroll',sc,{passive:true});
+bg.onclick=()=>{const o=lk.classList.toggle('open');bg.setAttribute('aria-expanded',o)};
+lk.querySelectorAll('a').forEach(a=>a.onclick=()=>{lk.classList.remove('open');bg.setAttribute('aria-expanded',false)});
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+document.getElementById('f').onsubmit=e=>{e.preventDefault();const d=new FormData(e.target);
+ const body=`Name: ${d.get('n')}\nPhone: ${d.get('p')}\nEmail: ${d.get('e')}\nProject type: ${d.get('t')}\n\n${d.get('m')}`;
+ document.getElementById('msg').textContent='Opening your email app to send the inquiry…';
+ location.href='mailto:mekaelmoner7@gmail.com?subject='+encodeURIComponent('Project inquiry — '+d.get('t'))+'&body='+encodeURIComponent(body)};
+</script>
+</body>
+</html>
